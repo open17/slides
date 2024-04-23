@@ -1,6 +1,6 @@
-# PPT仓库
+# Slides仓库
 
-使用[Slidev](https://github.com/slidevjs/slidev)创建的PPT仓库
+使用[Slidev](https://github.com/slidevjs/slidev)创建的幻灯片仓库
 
 
 ## 目录
