@@ -1,5 +1,8 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/slides/([^/]+)/(.*)",
+      "destination": "/slides/$1/index.html"
+    }
   ]
 }
