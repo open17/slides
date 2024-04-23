@@ -34,5 +34,5 @@ jobs:
           git add .
           git commit -m "docs(action): Update README.md"
           git pull
-          git push --force https://open17@github.com/open17/alg-note.git HEAD:pages
+          git push --force https://open17@github.com/open17/slides.git HEAD:pages
       
