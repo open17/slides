@@ -1,0 +1,19 @@
+{
+  "name": "slidev",
+  "version": "1.0.0",
+  "description": "使用[Slidev](https://github.com/slidevjs/slidev)创建的PPT仓库",
+  "main": "index.js",
+  "dependencies": {
+    "@slidev/cli": "^0.49.0-beta.4",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "vue": "^3.4.22"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
