@@ -27,7 +27,19 @@ jobs:
         run: |
           python auto.py
       
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git diff --quiet; then
+            echo "No changes to commit"
+            exit 0
+          else
+            echo "Changes detected, committing..."
+            exit 1
+          fi
+
       - name: Update README
+        if: steps.check_changes.outcome == 'failure'
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
