@@ -1,8 +1,17 @@
 {
-  "rewrites": [
+  "version": 2,
+    "rewrites": [
     {
       "source": "/slides/([^/]+)/(.*)",
       "destination": "/slides/$1/index.html"
     }
+  ],
+  "builds": [
+    {
+      "src": "!index.html",
+      "use": "@vercel/static",
+      "config": { "source": ".", "output": "slides" }
+    }
   ]
 }
+
