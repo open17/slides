@@ -33,8 +33,7 @@ jobs:
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "docs(action): Update README.md"
-          git pull
-          git push --force https://open17@github.com/open17/slides.git HEAD:main
+          git push https://open17@github.com/open17/slides.git HEAD:main
       
       - name: Move files
         run: |
