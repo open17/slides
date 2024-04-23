@@ -26,7 +26,10 @@ jobs:
       - name: Run Python script
         run: |
           python auto.py
-          mv ./dist ./
+      
+      - name: Move files
+        run: |
+          mv ./dist/* ./
 
       - name: Commit and push changes
         run: |
