@@ -2,8 +2,9 @@
 
 使用[Slidev](https://github.com/slidevjs/slidev)创建的幻灯片仓库
 
-
 ## 目录
+
+> 目录基于github action自动更新
 
 <!-- start -->
 
