@@ -6,4 +6,4 @@ items = os.listdir(src_directory)
 folder=[item for item in items if os.path.isdir(os.path.join(src_directory, item))]
 print("文件夹:", folder)
 for f in folder:
-    os.system(f"cd {current_directory} & npm run slidev build ./src/{f}/slides.md --base /slides/{f}/ --out ../../dist/{f}/ ")
+    os.system(f"cd {current_directory} & npx slidev build ./src/{f}/slides.md --base /slides/{f}/ --out ../../dist/{f}/ ")
