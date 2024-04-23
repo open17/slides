@@ -1,0 +1,30 @@
+name: Auto build all files with python script
+
+on:
+  push:
+    branches: 
+      - main
+
+permissions: write-all
+
+jobs:
+  auto-build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Run Python script
+        run: |
+          python auto.py
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "docs(action): Update README.md"
+          git pull
+          git push --force https://open17@github.com/open17/alg-note.git HEAD:pages
+      
