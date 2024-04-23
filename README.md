@@ -7,7 +7,8 @@
 
 <!-- start -->
 
-- [alphford2]('https://open17.github.io/slides/alphford2')  
+
 - [example]('https://open17.github.io/slides/example')  
+- [alphford2]('https://open17.github.io/slides/alphford2')  
 
 <!-- end -->
