@@ -27,25 +27,14 @@ jobs:
         run: |
           python auto.py
       
-      - name: Check for changes
-        id: check_changes
+      - name: Update README
         run: |
           if git diff --quiet; then
-            echo "No changes to commit"
-            exit 0
-          else
-            echo "Changes detected, committing..."
-            exit 1
-          fi
-
-      - name: Update README
-        if: steps.check_changes.outcome == 'failure'
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add .
-          git commit -m "docs(action): Update README.md"
-          git push https://open17@github.com/open17/slides.git HEAD:main
+            git config --local user.email "action@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "docs(action): Update README.md"
+            git push https://open17@github.com/open17/slides.git HEAD:main
 
       - name: Move files
         run: |
