@@ -35,6 +35,8 @@ jobs:
             git add .
             git commit -m "docs(action): Update README.md"
             git push https://open17@github.com/open17/slides.git HEAD:main
+            exit 0
+          fi
 
       - name: Move files
         run: |
