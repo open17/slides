@@ -5,18 +5,6 @@
       "source": "/slides/([^/]+)/(.*)",
       "destination": "/slides/$1/index.html"
     }
-  ],
-  "builds": [
-     {
-      "src": "index.html",
-      "use": "@vercel/static",
-      "config": { "distDir": "./public" }
-    },
-    {
-      "src": "!index.html",
-      "use": "@vercel/static",
-      "config": { "source": ".", "output": "./public/slides" }
-    }
   ]
 }
 

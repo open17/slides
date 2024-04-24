@@ -46,10 +46,23 @@ jobs:
           git add .
           git commit -m "docs(action): Update README.md"
           git push https://open17@github.com/open17/slides.git HEAD:main
+
+      - name: Move files
+        run: |
+          mv ./dist ./slides
+
+      - name: Push Page branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add .
+          git commit -m "feat(action): Generate page"
+          git pull
+          git push --force https://open17@github.com/open17/slides.git HEAD:vercel
       
       - name: Move files
         run: |
-          mv ./dist/* ./
+          mv ./slides/* ./
 
       - name: Push Page branch
         run: |
