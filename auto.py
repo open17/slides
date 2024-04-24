@@ -12,7 +12,7 @@ print("文件夹:", folder)
 
 for f in folder:
     os.system(f"cd {current_directory} & npx slidev build ./src/{f}/slides.md --base /slides/{f}/ --out ../../dist/{f}/ ")
-    md_links+=f"- [{f}](https://open17.github.io/slides/{f})  \n"
+    md_links+=f"\n## {f} \n- [vercel预览](https://https://slides.open17.vip/slides/{f}) \n- [github page预览](https://open17.github.io/slides/{f})  \n"
 
 
 
