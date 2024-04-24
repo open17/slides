@@ -50,6 +50,7 @@ jobs:
       - name: Move files
         run: |
           mv ./dist ./slides
+          mv ./slides/index.html ./index.html
 
       - name: Push Page branch
         run: |
