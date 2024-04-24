@@ -39,7 +39,7 @@ new_content = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Markdown CSS Example</title>
+    <title>Open17's Slides</title>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.5.1/github-markdown-light.min.css'>
 </head>
 <body>

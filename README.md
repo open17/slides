@@ -1,6 +1,6 @@
 # Slides仓库
 
-使用[Slidev](https://github.com/slidevjs/slidev)创建的幻灯片仓库
+使用[Slidev](https://github.com/slidevjs/slidev)创建的[幻灯片仓库](https://github.com/open17/slides/tree/main)
 
 ## 目录
 
