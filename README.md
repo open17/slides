@@ -12,16 +12,14 @@
 
 github page为备用预览路线,不太稳定,且推荐海外路线访问
 
+
+## 链接
+
+- [Vercel](https://slides.open17.vip/)
+- [Github Page](https://open17.github.io/slides/)
+
 <!-- start -->
 
 
-
-## alphford2 
-- [vercel预览](https://https://slides.open17.vip/slides/alphford2) 
-- [github page预览](https://open17.github.io/slides/alphford2)  
-
-## example 
-- [vercel预览](https://https://slides.open17.vip/slides/example) 
-- [github page预览](https://open17.github.io/slides/example)  
-
 <!-- end -->
+
