@@ -14,5 +14,26 @@ github page为备用预览路线,不太稳定,且推荐海外路线访问
 <!-- start -->
 
 
+
+## ACM2024-SUMMER 
+- [vercel预览](https://slides.open17.vip/slides/ACM2024-SUMMER) 
+- [github page预览](https://open17.github.io/slides/ACM2024-SUMMER)  
+
+## hmz-cd 
+- [vercel预览](https://slides.open17.vip/slides/hmz-cd) 
+- [github page预览](https://open17.github.io/slides/hmz-cd)  
+
+## alphfold2 
+- [vercel预览](https://slides.open17.vip/slides/alphfold2) 
+- [github page预览](https://open17.github.io/slides/alphfold2)  
+
+## Str-share-2024 
+- [vercel预览](https://slides.open17.vip/slides/Str-share-2024) 
+- [github page预览](https://open17.github.io/slides/Str-share-2024)  
+
+## example 
+- [vercel预览](https://slides.open17.vip/slides/example) 
+- [github page预览](https://open17.github.io/slides/example)  
+
 <!-- end -->
 
